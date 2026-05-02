@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d36314-8380-4ad6-b255-7d9cc1a9a223" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/org/psnbtech/ClockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/psnbtech/BoardPanelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/psnbtech/SidePanelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SnakeRemake-Master/org/psnbtech/SnakeGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeRemake-Master/org/psnbtech/SnakeGameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeRemake-Master/org/psnbtech/SnakeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeRemake-Master/org/psnbtech/SnakeGame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +30,11 @@
   "keyToString": {
     "Application.SnakeGame.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.BoardPanelTest.executor": "Coverage",
     "JUnit.ClockTest.executor": "Coverage",
+    "JUnit.SidePanelTest.executor": "Coverage",
     "JUnit.SnakeGameTest.executor": "Coverage",
-    "JUnit.org.psnbtech in SnakeRemake-Master.executor": "Coverage",
+    "JUnit.org.psnbtech in SnakeRemake-Master.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -55,7 +58,35 @@
       <recent name="C:\Users\JoshC.JOSH\git\SE461-Group-10-Project\SnakeRemake-Master\test\org\psnbtech" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.org.psnbtech in SnakeRemake-Master">
+  <component name="RunManager" selected="Application.SnakeGame">
+    <configuration name="SnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.psnbtech.SnakeGame" />
+      <module name="SnakeRemake-Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.psnbtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardPanelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeRemake-Master" />
+      <extension name="coverage" runner="jacoco">
+        <pattern>
+          <option name="PATTERN" value="org.psnbtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.psnbtech" />
+      <option name="MAIN_CLASS_NAME" value="org.psnbtech.BoardPanelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeRemake-Master" />
       <extension name="coverage" runner="jacoco">
@@ -71,16 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SidePanelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeRemake-Master" />
-      <extension name="coverage">
+      <extension name="coverage" runner="jacoco">
         <pattern>
           <option name="PATTERN" value="org.psnbtech.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.psnbtech" />
-      <option name="MAIN_CLASS_NAME" value="org.psnbtech.SnakeGameTest" />
+      <option name="MAIN_CLASS_NAME" value="org.psnbtech.SidePanelTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,9 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnakeGame" />
         <item itemvalue="JUnit.org.psnbtech in SnakeRemake-Master" />
+        <item itemvalue="JUnit.SidePanelTest" />
+        <item itemvalue="JUnit.BoardPanelTest" />
         <item itemvalue="JUnit.ClockTest" />
-        <item itemvalue="JUnit.SnakeGameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,10 +162,16 @@
     <SUITE FILE_PATH="coverage/SnakeRemake_Master$SnakeGameTest.exec" NAME="SnakeGameTest Coverage Results" MODIFIED="1777712924220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.psnbtech.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SnakeRemake_Master$SidePanelTest.exec" NAME="SidePanelTest Coverage Results" MODIFIED="1777745195822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.psnbtech.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/SnakeRemake_Master$ClockTest.exec" NAME="ClockTest Coverage Results" MODIFIED="1777743711085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.psnbtech.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SnakeRemake_Master$org_psnbtech_in_SnakeRemake_Master.exec" NAME="org.psnbtech in SnakeRemake-Master Coverage Results" MODIFIED="1777743731928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/SnakeRemake_Master$BoardPanelTest.exec" NAME="BoardPanelTest Coverage Results" MODIFIED="1777745085663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.psnbtech.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SnakeRemake_Master$org_psnbtech_in_SnakeRemake_Master.exec" NAME="org.psnbtech in SnakeRemake-Master Coverage Results" MODIFIED="1777745209146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.psnbtech.*</FILTER>
     </SUITE>
   </component>
