@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d36314-8380-4ad6-b255-7d9cc1a9a223" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/org/psnbtech/SnakeGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/psnbtech/ClockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeRemake-Master/org/psnbtech/SnakeGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeRemake-Master/org/psnbtech/SnakeGameTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,16 +29,18 @@
   "keyToString": {
     "Application.SnakeGame.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.ClockTest.executor": "Coverage",
     "JUnit.SnakeGameTest.executor": "Coverage",
+    "JUnit.org.psnbtech in SnakeRemake-Master.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JoshC.JOSH/git/SE461-Group-10-Project/SnakeRemake-Master",
+    "last_opened_file_path": "C:/Users/JoshC.JOSH/git/SE461-Group-10-Project/SnakeRemake-Master/test/org/psnbtech",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -44,14 +48,32 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JoshC.JOSH\git\SE461-Group-10-Project\SnakeRemake-Master\test\org\psnbtech" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JoshC.JOSH\git\SE461-Group-10-Project\SnakeRemake-Master\test\org\psnbtech" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SnakeGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.org.psnbtech in SnakeRemake-Master">
+    <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeRemake-Master" />
       <extension name="coverage" runner="jacoco">
+        <pattern>
+          <option name="PATTERN" value="org.psnbtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.psnbtech" />
+      <option name="MAIN_CLASS_NAME" value="org.psnbtech.ClockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnakeGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeRemake-Master" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.psnbtech.*" />
           <option name="ENABLED" value="true" />
@@ -64,19 +86,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="org.psnbtech in SnakeRemake-Master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeRemake-Master" />
+      <extension name="coverage" runner="jacoco">
+        <pattern>
+          <option name="PATTERN" value="org.psnbtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.psnbtech" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SnakeRemake-Master" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.org.psnbtech in SnakeRemake-Master" />
+        <item itemvalue="JUnit.ClockTest" />
         <item itemvalue="JUnit.SnakeGameTest" />
       </list>
     </recent_temporary>
@@ -100,6 +127,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SnakeRemake_Master$SnakeGameTest.exec" NAME="SnakeGameTest Coverage Results" MODIFIED="1777712924220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.psnbtech.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SnakeRemake_Master$ClockTest.exec" NAME="ClockTest Coverage Results" MODIFIED="1777743711085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.psnbtech.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SnakeRemake_Master$org_psnbtech_in_SnakeRemake_Master.exec" NAME="org.psnbtech in SnakeRemake-Master Coverage Results" MODIFIED="1777743731928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.psnbtech.*</FILTER>
     </SUITE>
   </component>
